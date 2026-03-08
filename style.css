@@ -1,0 +1,61 @@
+.Amor {
+font-size: 90px;
+font-family: Amor;
+
+}
+
+.icono {
+ font-size: 25px;
+ font-family: Iconos_2;
+ margin-left: 660px;
+ margin-top: 0px;
+ position: absolute;
+
+}
+
+.icono2 {
+ font-size: 25px;
+ font-family: Iconos_2;
+ margin-left: 680px;
+ margin-top: 0px;
+ position: absolute;
+
+}
+
+.mabel_icono {
+width: 150px;
+margin-top: 50px;
+margin-left: 1350px;
+position: absolute;
+}
+
+.galeria{
+  width:100%;
+  overflow:hidden;
+  position:relative;
+  padding:20px;
+}
+
+.slider{
+  display:flex;
+  gap:20px;
+  animation: moverGaleria 20s linear infinite;
+}
+
+.slider img{
+  width:250px;
+  height:250px;
+  object-fit:cover;
+  border-radius:15px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+@keyframes moverGaleria{
+  0%{
+    transform:translateX(-100%);
+  }
+
+  100%{
+    transform:translateX(100%);
+  }
+}
